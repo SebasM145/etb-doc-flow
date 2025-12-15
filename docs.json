@@ -1,0 +1,107 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "FlowMintlify",
+  "colors": {
+    "primary": "#3162ab",
+    "light": "#3162ab",
+    "dark": "#15803D"
+  },
+  "favicon": "/favicon.png",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Manual de usuario Flow",
+        "groups": [
+          {
+            "group": "Introducción",
+            "pages": [
+              "what-is-flow",
+              "key-concepts"
+            ]
+          },
+          {
+            "group": "Login",
+            "pages": ["Login"]
+          },
+          {
+            "group": "Módulo Bandeja de entrada",
+            "pages": ["inbox-module"]
+          },
+          {
+            "group": "Módulo Conversaciones",
+            "pages": [
+              "conversations-module",
+              "first-conversations-panel",
+              "second-conversations-panel",
+              "third-conversations-panel",
+              "fourth-conversations-panel",
+              "conversation-actions",
+              "macros",
+              "contact-attributes",
+              "contact-notes",
+              "previous-conversations",
+              "conversation-participants"
+            ]
+          },
+          {
+            "group": "Módulo Contactos",
+            "pages": ["module-contacts"]
+          },
+          {
+            "group": "Módulo Informes",
+            "pages": ["reports-module"]
+          },
+          {
+            "group": "Módulo Campañas",
+            "pages": ["campaigns"]
+          },
+          {
+            "group": "Módulo Centro de ayuda",
+            "pages": ["support-center"]
+          },
+          {
+            "group": "Módulo Ajustes",
+            "pages": ["settings"]
+          },
+          {
+            "group": "Ajustes de perfil",
+            "pages": ["profile-settings"]
+          },
+                              {
+            "group": "Restricción de 24 horas",
+            "pages": ["hour-restriction"]
+          }
+        ]
+      }
+    ]
+  },
+  "logo": {
+    "light": "/logo/light.png",
+    "dark": "/logo/dark.png"
+  },
+  "navbar": {
+    "primary": {
+      "type": "button",
+      "label": "Dashboard Flow",
+      "href": "https://flow.desarrollandoando.com/app/login"
+    }
+  },
+  "contextual": {
+    "options": [
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
+  },
+  "footer": {
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/desarrollando-ando/"
+    }
+  }
+}
