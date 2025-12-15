@@ -46,7 +46,9 @@
           },
           {
             "group": "Módulo Contactos",
-            "pages": ["module-contacts"]
+            "pages": [
+              "module-contacts",
+              "contact-import-export"]
           },
           {
             "group": "Módulo Informes",
@@ -77,13 +79,13 @@
     ]
   },
   "logo": {
-    "light": "/logo/light.png",
-    "dark": "/logo/dark.png"
+    "light": "/logo/Recurso4.svg",
+    "dark": "/logo/Recurso5.svg"
   },
   "navbar": {
     "primary": {
       "type": "button",
-      "label": "Dashboard Flow",
+      "label": "Inicia sesión en Flow",
       "href": "https://flow.desarrollandoando.com/app/login"
     }
   },
