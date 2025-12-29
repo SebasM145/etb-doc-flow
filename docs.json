@@ -64,7 +64,13 @@
           },
           {
             "group": "Módulo Ajustes",
-            "pages": ["settings"]
+            "pages": [
+              "settings",
+              "agents",
+              "teams",
+              "channels",
+              "custom-attributes"
+            ]
           },
           {
             "group": "Ajustes de perfil",
