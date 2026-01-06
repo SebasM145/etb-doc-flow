@@ -38,6 +38,7 @@
               "fourth-conversations-panel",
               "conversation-actions",
               "macros",
+              "conversation-information",
               "contact-attributes",
               "contact-notes",
               "previous-conversations",
@@ -66,10 +67,18 @@
             "group": "Módulo Ajustes",
             "pages": [
               "settings",
+              "account-settings",
               "agents",
               "teams",
               "channels",
-              "custom-attributes"
+              "labels",
+              "custom-attributes",
+              "automation-rules",
+              "macro",
+              "predefined-answers",
+              "integrations",
+              "difference-between-attribute-tag",
+              "difference-between-automations-macros"
             ]
           },
           {
