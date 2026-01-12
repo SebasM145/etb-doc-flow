@@ -1,107 +1,113 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Flow Manual",
+  "name": "Agentes Virtuales ETB Manual",
   "colors": {
-    "primary": "#3162ab",
-    "light": "#3162ab",
-    "dark": "#15803D"
+    "primary": "#0092bc",
+    "light": "#0092bc",
+    "dark": "#0092bc"
   },
   "favicon": "/favicon.png",
   "navigation": {
-    "tabs": [
+    "languages": [
       {
-        "tab": "Manual de usuario Flow",
-        "groups": [
+        "language": "es",
+        "tabs": [
           {
-            "group": "Introducción",
-            "pages": [
-              "what-is-flow",
-              "key-concepts"
+            "tab": "Manual de usuario Agentes Virtuales ETB",
+            "groups": [
+              {
+                "group": "Introducción",
+                "pages": [
+                  "what-is-virtual-agents",
+                  "key-concepts",
+                  "roles"
+                ]
+              },
+              {
+                "group": "Login",
+                "pages": ["Login"]
+              },
+              {
+                "group": "Módulo Bandeja de entrada",
+                "pages": ["inbox-module"]
+              },
+              {
+                "group": "Módulo Conversaciones",
+                "pages": [
+                  "conversations-module",
+                  "first-conversations-panel",
+                  "second-conversations-panel",
+                  "third-conversations-panel",
+                  "fourth-conversations-panel",
+                  "conversation-actions",
+                  "macros",
+                  "conversation-information",
+                  "contact-attributes",
+                  "contact-notes",
+                  "previous-conversations",
+                  "conversation-participants"
+                ]
+              },
+              {
+                "group": "Módulo Contactos",
+                "pages": [
+                  "module-contacts",
+                  "contact-import-export"]
+              },
+              {
+                "group": "Módulo Informes",
+                "pages": ["reports-module"]
+              },
+              {
+                "group": "Módulo Campañas",
+                "pages": ["campaigns"]
+              },
+              {
+                "group": "Módulo Centro de ayuda",
+                "pages": ["support-center"]
+              },
+              {
+                "group": "Módulo Ajustes",
+                "pages": [
+                  "settings",
+                  "account-settings",
+                  "agents",
+                  "teams",
+                  "channels",
+                  "labels",
+                  "custom-attributes",
+                  "automation-rules",
+                  "macro",
+                  "predefined-answers",
+                  "integrations",
+                  "difference-between-attribute-tag",
+                  "difference-between-automations-macros"
+                ]
+              },
+              {
+                "group": "Ajustes de perfil",
+                "pages": ["profile-settings"]
+              },
+              {
+                "group": "Restricción de 24 horas",
+                "pages": ["hour-restriction"]
+              }
             ]
-          },
-          {
-            "group": "Login",
-            "pages": ["Login"]
-          },
-          {
-            "group": "Módulo Bandeja de entrada",
-            "pages": ["inbox-module"]
-          },
-          {
-            "group": "Módulo Conversaciones",
-            "pages": [
-              "conversations-module",
-              "first-conversations-panel",
-              "second-conversations-panel",
-              "third-conversations-panel",
-              "fourth-conversations-panel",
-              "conversation-actions",
-              "macros",
-              "conversation-information",
-              "contact-attributes",
-              "contact-notes",
-              "previous-conversations",
-              "conversation-participants"
-            ]
-          },
-          {
-            "group": "Módulo Contactos",
-            "pages": [
-              "module-contacts",
-              "contact-import-export"]
-          },
-          {
-            "group": "Módulo Informes",
-            "pages": ["reports-module"]
-          },
-          {
-            "group": "Módulo Campañas",
-            "pages": ["campaigns"]
-          },
-          {
-            "group": "Módulo Centro de ayuda",
-            "pages": ["support-center"]
-          },
-          {
-            "group": "Módulo Ajustes",
-            "pages": [
-              "settings",
-              "account-settings",
-              "agents",
-              "teams",
-              "channels",
-              "labels",
-              "custom-attributes",
-              "automation-rules",
-              "macro",
-              "predefined-answers",
-              "integrations",
-              "difference-between-attribute-tag",
-              "difference-between-automations-macros"
-            ]
-          },
-          {
-            "group": "Ajustes de perfil",
-            "pages": ["profile-settings"]
-          },
-                              {
-            "group": "Restricción de 24 horas",
-            "pages": ["hour-restriction"]
           }
         ]
       }
-    ]
+    ]  
   },
   "logo": {
-    "light": "/logo/light.svg",
+    "light": "/logo/light.jpeg",
     "dark": "/logo/dark.svg"
   },
   "navbar": {
     "primary": {
       "type": "button",
-      "label": "Inicia sesión en Flow",
-      "href": "https://flow.desarrollandoando.com/app/login"
+      "label": "Inicia sesión en Agentes Virtuales ETB",
+      "href": "https://web-etb.up.railway.app/app/login"
     }
   },
   "contextual": {
@@ -118,7 +124,7 @@
   },
   "footer": {
     "socials": {
-      "linkedin": "https://www.linkedin.com/company/desarrollando-ando/"
+      "linkedin": "https://www.linkedin.com/company/etb/"
     }
   }
 }

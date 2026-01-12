@@ -2,35 +2,35 @@
 title: "Atributos de contacto"
 ---
 
-Los atributos pueden personalizarse, es decir, puedes agregar cuantos quieras o necesites, pero con tu configuración inicial, Flow trae un atributo básico llamado **bot**, que indica si el contacto está siendo atendido por un bot o un agente humano, de acuerdo a los siguientes parámetros:
+Los atributos pueden personalizarse, es decir, puedes agregar cuantos quieras o necesites, pero con tu configuración inicial, Agentes Virtuales ETB trae un atributo básico llamado **bot**, que indica si el contacto está siendo atendido por un bot o un agente humano, de acuerdo a los siguientes parámetros:
 
-* **bot: on**: el bot está activo, lo que quiere decir que es el bot el que está atendiendo al usuario.
+- **bot: on**: el bot está activo, lo que quiere decir que es el bot el que está atendiendo al usuario.
 
-* **bot: off:** el bot está desactivado y el usuario está siendo atendido por un agente humano.
+- **bot: off:** el bot está desactivado y el usuario está siendo atendido por un agente humano.
 
-Este atributo “bot” es opcional y no es parte del funcionamiento base de Flow. Es útil si  alguien del equipo creó un flujo como:
+Este atributo “bot” es opcional y no es parte del funcionamiento base de Agentes Virtuales ETB. Es útil si alguien del equipo creó un flujo como:
 
-- *“Si bot \= on, seguir enviando mensajes automáticos”*  
-- *“Si bot \= off, entregar al humano”*
+- _“Si bot \= on, seguir enviando mensajes automáticos”_
+- _“Si bot \= off, entregar al humano”_
 
 Es decir, que este atributo se usa para saber rápidamente si el contacto está interactuando con un flujo automático (bot) o ya pasó a un agente humano.
 
-Para modificarlo solo debes seleccionar **on** u **off** según lo que quieras indicar.   
+Para modificarlo solo debes seleccionar **on** u **off** según lo que quieras indicar.  
 Si quieres activar un bot, debes tener en cuenta que para ello requieres contar con una API en cualquier tecnología ([Node.js](http://Node.js), Python, Java, PHP, etc.). Esta API debe recibir peticiones POST, procesar el contenido y responder con un JSON.
 
 **¿Por qué está configurada la opción de bot?**
 
 Porque los bot pueden optimizar el flujo conversacional ya que:
 
-* Está disponible para contestar rápidamente 24/7
+- Está disponible para contestar rápidamente 24/7
 
-* Puede responder preguntas básicas
+- Puede responder preguntas básicas
 
-* Recopila datos del usuario
+- Recopila datos del usuario
 
-* Puede filtrar a los clientes antes de pasarlos a un agente humano
+- Puede filtrar a los clientes antes de pasarlos a un agente humano
 
-* Reduce carga de trabajo del equipo de soporte o ventas
+- Reduce carga de trabajo del equipo de soporte o ventas
 
 Si esta en modo on, el bot se activa cuando llega un mensaje nuevo
 
@@ -38,15 +38,14 @@ El comportamiento del bot depende de como lo configures en la sección de Ajuste
 
 Además de Bots, puedes añadir más atributos, por ejemplo:
 
-* “plan” → “premium / gratis”
+- “plan” → “premium / gratis”
 
-* “cliente\_id” → número interno
+- “cliente_id” → número interno
 
-* “ciudad” → Bogotá, Medellín…
+- “ciudad” → Bogotá, Medellín…
 
-* “tipo\_usuario” → lead / cliente / proveedor
+- “tipo_usuario” → lead / cliente / proveedor
 
-* “origen” → WhatsApp / Web / Instagram…
+- “origen” → WhatsApp / Web / Instagram…
 
-Para crear nuevos atributos y poderlos añadir a esta sección, debes hacerlo en la opción de Ajustes del lateral izquierdo, y seleccionar la opción “Atributos personalizados”. Verás la opción “Añadir atributo personalizado”, y en el campo “Aplicar a”, seleccionar “Contacto” 
-
+Para crear nuevos atributos y poderlos añadir a esta sección, debes hacerlo en la opción de Ajustes del lateral izquierdo, y seleccionar la opción “Atributos personalizados”. Verás la opción “Añadir atributo personalizado”, y en el campo “Aplicar a”, seleccionar “Contacto”
