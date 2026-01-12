@@ -1,7 +1,7 @@
 {
-  "name": "documentacion-flow",
+  "name": "documentacion-Agentes Virtuales ETB",
   "version": "1.0.0",
-  "description": "Manual de usuario Flow",
+  "description": "Manual de usuario Agentes Virtuales ETB",
   "scripts": {
     "dev": "mintlify dev",
     "start": "mintlify dev --host 0.0.0.0 --port 3000"
